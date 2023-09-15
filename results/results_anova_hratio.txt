@@ -1,0 +1,13 @@
+('anova_comparison',    
+df_resid       ssr  df_diff       ss_diff         F    Pr(>F)         Model details
+0      56.0  0.000689      0.0           NaN       NaN       NaN      h_ratio ~ C(DGRP)
+1      55.0  0.000689      1.0  5.980075e-11  0.000005  0.998265)     h_ratio ~ C(DGRP) + sex 
+('anova_without_sex',             
+df    sum_sq   mean_sq         F    PR(>F)
+C(DGRP)   68.0  0.002459  0.000036  2.938495  0.000027
+Residual  56.0  0.000689  0.000012       NaN       NaN)
+('anova_with_sex',             
+df        sum_sq       mean_sq         F    PR(>F)
+C(DGRP)   68.0  2.459465e-03  3.616860e-05  2.886022  0.000039
+sex        1.0  5.980075e-11  5.980075e-11  0.000005  0.998265
+Residual  55.0  6.892785e-04  1.253234e-05       NaN       NaN)

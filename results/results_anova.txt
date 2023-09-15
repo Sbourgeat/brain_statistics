@@ -1,0 +1,13 @@
+('anova_comparison',    
+df_resid      ssr  df_diff  ss_diff         F    Pr(>F)         Model details
+0      56.0  0.00039      0.0      NaN       NaN       NaN      abs_volume ~ C(DGRP)
+1      55.0  0.00036      1.0  0.00003  4.612702  0.036158)     abs_volume ~ C(DGRP) + sex 
+('anova_without_sex',             
+df    sum_sq   mean_sq         F    PR(>F)
+C(DGRP)   68.0  0.001668  0.000025  3.520813  0.000002
+Residual  56.0  0.000390  0.000007       NaN       NaN)
+('anova_with_sex',             
+df    sum_sq   mean_sq         F        PR(>F)
+C(DGRP)   68.0  0.001668  0.000025  3.747950  6.152875e-07
+sex        1.0  0.000030  0.000030  4.612702  3.615797e-02
+Residual  55.0  0.000360  0.000007       NaN           NaN)

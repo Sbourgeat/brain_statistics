@@ -1,0 +1,25 @@
+         Model        R2          AIC          BIC
+0  Without Sex  0.810436 -1091.891438  -896.737790
+1     With Sex  0.825104 -1099.958373  -901.976412
+2     Only Sex  0.004989 -1018.637864 -1012.981237
+3  Interaction  0.978820 -1089.718020  -804.435145
+('anova_comparison',    
+df_resid       ssr  df_diff   ss_diff         F    Pr(>F)
+0      56.0  0.000390      0.0       NaN       NaN       NaN
+1      55.0  0.000360      1.0  0.000030  2.180946  0.145432
+2       3.0  0.000042     52.0  0.000319  0.442399  0.907709)
+('anova_without_sex',             
+df    sum_sq   mean_sq         F    PR(>F)
+C(DGRP)   68.0  0.001668  0.000025  3.520813  0.000002
+Residual  56.0  0.000390  0.000007       NaN       NaN)
+('anova_with_sex',             
+df    sum_sq   mean_sq         F        PR(>F)
+C(DGRP)   68.0  0.001668  0.000025  3.747950  6.152875e-07
+sex        1.0  0.000030  0.000030  4.612702  3.615797e-02
+Residual  55.0  0.000360  0.000007       NaN           NaN)
+('anova_interaction',                
+df    sum_sq   mean_sq         F    PR(>F)
+C(DGRP)      52.0  0.001571  0.000030  2.181897  0.287419
+sex           1.0  0.000030  0.000030  2.180946  0.236226
+C(DGRP):sex  52.0  0.000319  0.000006  0.442399  0.907709
+Residual      3.0  0.000042  0.000014       NaN       NaN)
